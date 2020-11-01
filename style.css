@@ -1,0 +1,170 @@
+body{
+    font-family: "impact", "맑은고딕", "고딕";
+    padding: 1%;
+}
+
+header{
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+header h1{
+    font-size: 800%;
+    width: 100%;
+    color: #000000;
+}
+
+
+nav ul li{
+    display: inline;
+    float: left;
+    margin: 10px;
+}
+
+nav ul li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+p{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+section{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    border: solid black;
+}
+
+footer{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    padding: 10px;
+    background-color: #a8a8a8;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style: circle;
+}
+
+@font-face{
+    font-family: Spoqa Han Sans Regular;
+    src:url('Spoqa Han Sans Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: SeoulNamsanM;
+    src:url('SeoulNamsanM.ttf');
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: SeoulNamsanEB;
+    src:url('SeoulNamsanEB.ttf');
+    font-weight: bolder;
+}
+
+header{
+    font-family: Spoqa Han Sans Regular;
+    word-spacing: 0.3em;
+}
+
+body{
+    font-family: SeoulNamsanM;
+}
+
+.medium{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: 0.3em;
+    text-shadow: 0px 0px 8px #000000;
+}
+
+.small{
+    font-size: x-large;
+    font-style: italic;
+    text-align: left;
+    text-decoration: underline;
+    line-height: 200%;
+    font-weight: bold;
+    
+}
+
+.large{
+    font-family: SeoulNamsanEB;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline overline line-through;
+    line-height: 200%;
+    letter-spacing: 0.3em;
+    
+}
+
+
+.xx-large{
+    font-family: SeoulNamsanEB;
+    font-size: xx-large;
+    text-align: justify;
+    line-height: 200%
+}
+
+h1{
+    font-variant: small-caps;
+    text-align: center;
+}
+
+#interface{
+    text-align: center;
+}
+
+table{
+    border: solid black;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffffff;
+}
+
+tr{
+    margin: auto
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#image-main{
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+
+#sub{
+    margin:auto;
+    width: 100%;
+}
+
+#sub-image{
+    margin: auto;
+    width: 100%;
+}
